@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gemini to Markdown</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h1>📥 Gemini Chats to Local Markdown</h1>
+    </div>
+    
+    <div class="content">
+      <p class="description">Export your current Gemini chat as a markdown file.</p>
+      
+      <button id="downloadBtn" class="download-btn">
+        <span class="btn-icon">⬇️</span>
+        Download as Markdown
+      </button>
+      
+      <div id="status" class="status hidden"></div>
+    </div>
+    
+    <div class="footer">
+      <p class="hint">💡 Make sure you're on a Gemini chat page</p>
+    </div>
+  </div>
+  
+  <script src="popup.js"></script>
+</body>
+</html>

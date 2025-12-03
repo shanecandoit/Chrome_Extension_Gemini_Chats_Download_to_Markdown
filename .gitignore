@@ -1,0 +1,30 @@
+# Node modules
+node_modules/
+
+# Build files
+dist/
+build/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Extension packaging
+*.zip
+*.crx
+*.pem
+
+# Logs
+*.log
+npm-debug.log*
+
+# Environment files
+.env
+.env.local
