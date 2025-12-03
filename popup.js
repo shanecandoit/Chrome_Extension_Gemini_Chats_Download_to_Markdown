@@ -118,14 +118,15 @@ document.addEventListener('DOMContentLoaded', function() {
 
 // This function will be injected into the page
 function extractChatContent() {
-  // Try to find the chat title - Gemini displays it in multiple places
+  // Try to find the chat title - Gemini displays it in a span with class "conversation-title"
   let title = 'Gemini Conversation';
   
   // Try multiple selectors to find the chat title
   const titleSelectors = [
+    'span.conversation-title',
+    '.conversation-title',
     'div[data-test-id="conversation-title"]',
     'button[aria-label*="Rename"]',
-    'div.conversation-title',
     'mat-panel-title',
     'textarea[placeholder*="chat"]',
     '.chat-name',
