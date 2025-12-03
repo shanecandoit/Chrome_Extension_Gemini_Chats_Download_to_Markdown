@@ -1,6 +1,11 @@
-# Gemini Chat to Markdown
+# Gemini Chat to Local Markdown Files
+
+![Logo Icon](icons/icon128.png)
 
 A Chrome extension that allows you to download your Google Gemini chat conversations as markdown files, perfect for importing into Obsidian, Notion, or any other markdown-based note-taking application.
+
+
+![Extension Screenshot](Screenshot.png)
 
 ## Features
 
